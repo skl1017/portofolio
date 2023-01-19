@@ -1,0 +1,278 @@
+  @font-face{
+    font-family:"Arabic_light";
+    src: url(DIN_Next_LT_Arabic_Light.ttf);
+  }
+  @font-face{
+    font-family:"Arabic_regular";
+    src: url(DIN_Next_LT_Arabic_Regular.ttf);
+  }
+  html, body{
+    margin: 0px;
+    font-family: "Arabic_regular";
+    background-color: rgb(28,10,84);
+    color: white;
+    font-size: 20px;
+  }
+  .highlight{
+    background-color:rgb(126,98,235);
+    height: 100%;
+    width: 100%;
+  }
+  section{
+    margin: 30px;
+  }
+
+    /* header */
+
+  header{
+    background-color: rgba(13,6,37);
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  h1{
+    font-weight: bold;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  h2{
+    margin: 0px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  h3{
+    margin: 0px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .loanR{
+    line-height: 150% ;
+    font-size: 30px;
+    margin-left: 30px;
+    color: transparent;
+    background-size: cover;
+    background-image: url("nom_2.png");
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip:text;
+  }
+  nav{
+    margin-left: 10px;
+    width: 800px;
+  }
+  ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+  }
+  li{
+    font-size: 23px;
+    list-style-type: none;
+    text-align: center;
+  }
+  header a{
+    text-decoration: none;
+    color: white;
+  }
+  .active{
+    color: rgb(126,98,235)
+  }
+  .titre{
+    text-align: center;
+    margin-block: 9%;
+
+  }
+
+
+  article{
+    margin-inline: 20%;
+  }
+  .intro{
+    text-align: center;
+    margin-block: 9%;
+  }
+
+
+  /* containers */
+
+
+  .container-1{
+    display: flex;
+    margin-bottom: 10%;
+    justify-content:space-between ;
+  }
+  .container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 12%;
+  }
+  .container-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    margin-bottom: 12%;
+  }
+  .container-4{
+    text-align: center;
+    margin-block: 15%;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  input{
+    padding: 2px;
+    margin-block: 1%;
+    border-radius: 4px;
+    border: 1px;
+    height: 40px;
+    width: 55%;
+  }
+  #sub{
+    width: 20%;
+    height: 34px;
+    background-color: rgb(126,98,235);
+    color: white;
+    border: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 14px;
+  }
+
+
+  .Skills-text{
+    text-align: center;
+    width: 93%;
+  }
+  .CV-text{
+    width : 45%;
+  }
+
+/* Photos*/
+
+  #container-png{
+    width: 45%;
+    display: flex;
+  }
+  #photo-identite{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skillsPhoto{
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-skillsPhoto{
+    display: flex;
+    justify-content: center;
+  }
+  iframe{
+    width: 85%;
+    border-width: 0px;
+  }
+  #video3{
+    width:100%;
+    text-align: center;
+  }
+  video{
+    width: 80%;
+    text-align: center;
+  }
+
+
+    
+  /* Footer*/
+
+
+  footer{
+    background-color: rgba(13,6,37);
+    height: 170px;
+    display: flex;
+    align-items: center;
+
+  }
+  header a:hover{
+    color: rgb(126,98,235);
+    text-decoration: none;
+  }
+  span.highlight a {
+    text-decoration: none;
+    font-weight: 1000;
+    color: white;
+}
+  span.highlight a:hover{
+    color: black;
+  }
+
+.icon-png{
+  filter: grayscale(0.7);
+  width: 100%;
+}
+.icon{
+  width: 90px;
+  gap: 30px;
+  display: flex;
+}
+
+#container-icons{
+  display: flex;
+  margin-left: 30px;
+}
+
+#reponse{
+  text-align: center;
+  margin-block: 20%;
+}
+
+    /* Media telephone*/
+
+@media (max-width: 767px){
+  article{
+    margin-inline: 5%;
+  }
+  .container-1{
+    flex-direction: column;
+    align-items: center;
+  }
+  .CV-text{
+    width: 100%;
+    text-align: center;
+    margin-block: 5%;
+  }
+  #container-png{
+    width: 55%;
+  }
+  header{
+    flex-direction: column;
+  }
+  nav{
+    width: 95%;
+    margin: 0px;
+  }
+  ul{
+    justify-content: space-evenly;
+  }
+  li{
+    font-size: 20px;
+  }
+}
+
+  
+    /* Media tablette*/
+@media (min-width: 768px) and (max-width: 1023px){
+  article{
+    margin-inline: 13%;
+  }
+}
